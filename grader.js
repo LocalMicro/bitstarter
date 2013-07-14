@@ -4,8 +4,12 @@
 var fs = require('fs');
 var program = require('commander');
 var cheerio = require('cheerio');
-var HTMLFILE_DEFAULT = "index.html";
-var CHECKSFILE_DEFAULT = "checks.json";
+//var HTMLFILE_DEFAULT = "index.html";
+var HTMLFILE_DEFAULT = "test1.html";
+//var HTMLFILE_DEFAULT = "test2.html";
+//var CHECKSFILE_DEFAULT = "checks.json";
+var CHECKSFILE_DEFAULT = "checks-test-1.json";
+//var CHECKSFILE_DEFAULT = "checks-test-2.json";
 
 var URL_DEFAULT = "https://evening-retreat-2349.herokuapp.com";
 var rest = require('restler');
