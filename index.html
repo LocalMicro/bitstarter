@@ -147,7 +147,7 @@
       <div class="row-fluid pitch">
         <!-- <div class="span5 offset1 video"> -->
         <div class="span3 offset1 video">
-          <img class="img-polaroid" src="http://localmicro.files.wordpress.com/2013/07/3seedling2.jpg">
+          <img class="img-polaroid" alt-"LocalMicro logo" src="http://localmicro.files.wordpress.com/2013/07/3seedling2.jpg">
            <div class="span11 copy"><p>
            Local Micro is a pilot project about microfinance and green investing 
             in Baltimore, Maryland USA. 
@@ -159,28 +159,35 @@
 
         <!-- We define a new 'actions' div to contain statistics, order, and share buttons.-->
         <div class="span5 actions">
-          <div class="span8 offset2">
-            <div class="statistics">
+         <!-- oldhtml: <div class="span8 offset2"> -->
+         <!--    <div class="statistics">  -->
+            <div class="row-fluid">
+            <div class="span8 offset2">
+              <div class="row-fluid statistics">
               <div class="span4">
                 <!-- linediv-l and linediv-r give dividing lines that look
                 different in horizontal and vertical layouts, illustrating
                 media queries. -->
                 <div class="linediv-l">
                 <h3>100</h3> <p>backers</p>
-                </div>
-              </div>
+                </div>  <!-- end div class linediv-l -->
+              </div>  <!-- end div class span4 -->
               <div class="span4">
                 <div class="linediv-c">
                   <h3>BTC 100</h3> <p>of BTC 1,000</p>
-                </div>
-              </div>
+                </div> <!-- end div class linediv-c -->
+              </div>  <!-- end div class span4 -->
               <div class="span4">
                 <div class="linediv-r">
                 <h3>30</h3> <p>days left</p>
-                </div>
-              </div>
-            </div>
-          </div>
+                </div> <!-- end div class linediv-r -->
+              </div>  <!-- end div class span4 -->
+              
+            </div>  <!-- end div class row-fluid statistics -->
+          </div>  <!-- end div class span8 offset2 -->
+                 
+           <!-- New div class row fluid   -->
+           <div class="row-fluid">
           <div class="span10 offset1">
             <!-- Bootstrap progress bar -->
             <!-- http://twitter.github.io/bootstrap/components.html#progress -->
@@ -189,6 +196,9 @@
               <div class="bar bar-warning" style="width: 40%;"></div>
             </div>
           </div>
+          </div>  <!-- end div class row-fluid -->
+          <!-- New div class row fluid   -->
+          <div class="row-fluid">
            <!--HERE ARE SOCIAL MEDIA AND BITCOIN BUTTONS -->
           <div class="span6 offset3 order">
             <!-- Standard Bootstrap button. -->
@@ -198,7 +208,10 @@
                href="https://coinbase.com/checkouts/620788e68ef48e128306a22a0d065bff">Donate Bitcoins</a>
                <script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>
           </div>
+          </div>  <!-- end div class row-fluid -->
           
+          <!-- New div class row fluid   -->
+          <div class="row-fluid">
           <div class="span8 offset2 social">
             <!-- Social buttons are not included in default Bootstrap. -->
             <!-- See: http://noizwaves.github.io/bootstrap-social-buttons -->
@@ -213,6 +226,7 @@
                    js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}
                    (document, 'script', 'twitter-wjs');</script>
             </div>
+            </div>
 
             <!-- <button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button> -->
             <!-- my button for Google-plus -->
@@ -223,6 +237,7 @@
             </div>
             
             <!-- copied button for Google-plus -->
+            <div class="row-fluid">
             <div class="span8 offset2 social">
             <p>
             <button class="btn btn-google-plus" onclick="window.open('https://plus.google.com/109662248038656895339', '_blank')"><i class="icon-google-plus"></i> | Google+</button>
@@ -233,6 +248,7 @@
             <button class="btn btn-wordpress" onclick="window.open('https://localmicro.wordpress.com', '_blank')"><i class="icon-wordpress"></i> <h5>Visit the LocalMicro Blog</h5></button>
             </p> 
             </div>
+            </div> <!-- end div class row fluid -->
             
             <!-- homemade Wordpress link button -->
             <!--<div>
@@ -257,7 +273,7 @@
           </p>
         </div>
         <div class="span2 offset0 asset">
-          <img class="img-polaroid" src="http://localmicro.files.wordpress.com/2013/07/dollar-sign-plus.png">
+          <img class="img-polaroid" alt-"Dollar sign" src="http://localmicro.files.wordpress.com/2013/07/dollar-sign-plus.png">
         </div>
         
       </div>
@@ -273,7 +289,7 @@
           </p>
         </div>
         <div class="span5 asset">
-          <img class="img-polaroid" src="http://placehold.it/480x300"> 
+          <img class="img-polaroid" alt="Placeholder" src="http://placehold.it/480x300"> 
           <!--  <img class="img-polaroid" src="http://localmicro.files.wordpress.com/2013/07/3seedling2.jpg">-->
         </div>
       </div>
